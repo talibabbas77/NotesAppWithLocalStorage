@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 7% 0 0 10%;
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+  background: linear-gradient(#3a3a3a, #999999);
+}
+
+.container h1 {
+  display: flex;
+  align-items: center;
+  margin-left: 27px;
+  font-size: 30px;
+  font-weight: 600px;
+  gap: 8px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  font-size: 18px;
+  outline: 0;
+  border: 0;
+  border-radius: 40px;
+  margin: 30px 0 20px;
+  text-align: center;
+  gap: 7px;
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container button .edit-icon {
+  color: #fff;
+}
+
+.notes-container .input-box {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  background: #fff;
+  color: #333;
+  padding: 20px;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 5px;
+  caret-color: transparent;
+}
+
+.notes-container .input-box:focus {
+  border: 3px solid #000;
+}
+
+img {
+  width: 25px;
+  color: #333;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+}
